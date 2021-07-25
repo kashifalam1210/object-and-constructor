@@ -1,0 +1,45 @@
+//HTML File
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Population of our area</title>
+  
+ 
+</head>
+
+<body>
+  <label for="education">What is your education: </label>
+    <select name="education" id="education" onchange="educationData()">
+        <option value="cs" checked>Computer Engineer</option>
+        <option value="BE Electrical">Electrical</option>
+        <option value="BE Mechnical">Mechnical </option>
+        <option value="BE industrial">industrial</option>
+    </select>
+
+    <label for="profession">What is your Profession: </label>
+    <select name="profession" id="profession" onchange="professionPeoples()">
+        <option value="Solar Designer" checked>Solar Designer</option>
+        <option value="power plant">power plant</option>
+        <option value="Designer">Designer</option>
+        <option value="mechanical pro">Mechnical</option>
+    </select>
+
+
+    <br>
+    <label for="">Gender:</label>
+    <label for="">&nbsp; Male
+        <input type="radio" name="gender" checked="checked" value="male">
+    </label>
+    <label for="">Female
+        <input type="radio" name="gender" value="female">
+    </label>
+
+  
+ 
+  <script src="main.js"></script>
+</body>
+</html>
